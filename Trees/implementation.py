@@ -121,6 +121,16 @@ class BinaryTree():
 
     def largestPossibleBSTroot(self):
         pass
+    def allroottoleafs(self,root,mystack):
+        if root==None:
+            return
+        mystack.append(root.value)
+        self.allroottoleafs(root.lchild,mystack)
+        if root.lchild==None and root.rchild==None:
+            print(mystack)
+        self.allroottoleafs(root.rchild,mystack)
+        mystack.pop()
+
 
     def sumofrootleaf(self,givenleaf):
         pass
@@ -209,3 +219,6 @@ if __name__=='__main__':
 
     print("Depth of node f")
     print(mytree.depth(f))
+
+    print("All Root To Leaf Paths: ")
+    mytree.allroottoleafs(a,[])
