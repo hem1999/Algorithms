@@ -32,15 +32,22 @@ class BinaryTree():
 # Depth of a node is the number of edges from the
 # node to the tree's root node.
     def depth(self,node):
-        print(node.value)
+        print(node.value)#Just to print the sequence
         if node.isRoot():
             return 0
         else:
             return 1+self.depth(node.parent)
     def depthIteration(self,node):
-        pass
+        depth=0
+        while(not node.isRoot()):
+            depth +=1
+            node = node.parent
+        return depth
     def maxdepth(self,node):
-        pass
+        if node.isExternal():
+            return 1
+        else:
+            return 1+max(self.maxdepth(node.lchild),self.maxdepth(node.rchild))
     def height(self,node):
         if node.isExternal():
             return 0
@@ -202,8 +209,17 @@ if __name__=='__main__':
     f.parent = c
     d.parent = b
     e.parent = b
-
     mytree = BinaryTree(a)
+
+#####Executing my Functions Above:
+    print('Finding depth of node e')
+    print('Recursive: ')
+    print(mytree.depth(e))
+    print('Iterative: ')
+    print(mytree.depthIteration(e))
+    print('Finding max depth possible: ')
+    print(mytree.maxdepth(a))
+
     print('Preorder Traversal: ')
     mytree.Preorder(a)
     print()
