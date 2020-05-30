@@ -3,56 +3,8 @@ class Sorting():
         self.arr = arr
         self.asc = asc
 
-    def bubble_sort(self):
-        for j in range(len(self.arr)):
-            for i in range(len(self.arr)-j-1):
-                if self.asc:
-                    if self.arr[i]>self.arr[i+1]:
-                        self.arr[i],self.arr[i+1] = self.arr[i+1],self.arr[i]
-                else:
-                    if self.arr[i]<=self.arr[i+1]:
-                        self.arr[i],self.arr[i+1] = self.arr[i+1],self.arr[i]
-        return self.arr
-
-    def merge_sort(self):
-        def split(arr):
-            if len(arr)<=1:
-                return arr
-            middle_index = len(arr)//2
-            left = arr[:middle_index]
-            right = arr[middle_index:]
-            sleft = split(left)
-            sright = split(right)
-            return merge(sleft,sright)
-
-
-        def merge(left,right):
-            result = []
-            while(left and right):
-                if self.asc:
-                    if left[0]<=right[0]:
-                        result.append(left[0])
-                        left.pop(0)
-                    else:
-                        result.append(right[0])
-                        right.pop(0)
-                else:
-                    if left[0]>right[0]:
-                        result.append(left[0])
-                        left.pop(0)
-                    else:
-                        result.append(right[0])
-                        right.pop(0)
-
-            if left:
-                result+=left
-            if right:
-                result+=right
-            return result
-        return split(self.arr)
-
     def quick_sort():
-        
+        pass
 
     def radix_sort():
         pass
