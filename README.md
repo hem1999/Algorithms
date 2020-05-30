@@ -8,6 +8,8 @@
 
 <a href="https://github.com/hem1999/Algorithms/blob/master/Graphs/TopologicalSort.py">Topological Sort</a>
 
+<h2>Sorting Algorithms:</h2>
+
 
 
 
