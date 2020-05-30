@@ -1,5 +1,32 @@
 # Algorithms
 
+<h2>Graphs: </h2>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Graphs/AdjacencyMatrixRepresentation.py">Adjacency Matrix Representation</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Hello! Incase you are viewing my repo and didn't get what you are seeing this is for you to better understand what this is?
 
 The primary objective of this repository is:
