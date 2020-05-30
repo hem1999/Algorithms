@@ -1,4 +1,34 @@
-# Algorithms
+<h2>Graphs: </h2>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Graphs/AdjacencyMatrixRepresentation.py">Adjacency Matrix Representation</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Graphs/BreadthFirstSearch.py">Breadth First Search</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Graphs/DepthFirstSearch.py">Depth First Search</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Graphs/TopologicalSort.py">Topological Sort</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Hello! Incase you are viewing my repo and didn't get what you are seeing this is for you to better understand what this is?
 
