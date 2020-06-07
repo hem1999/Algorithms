@@ -10,7 +10,15 @@
 
 <h2>Sorting Algorithms:</h2>
 
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/bubblesort.py">Bubble Sort</a>
 
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/insertionsort.py">Insertion Sort</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/merge_sort.py">Merger Sort</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/quicksort.py">Quick Sort</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/radixsort.py">Radix Sort</a>
 
 
 
