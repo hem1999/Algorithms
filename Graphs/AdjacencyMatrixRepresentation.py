@@ -13,9 +13,9 @@ class AdjacencyMatrix(Graph):
         if weight<1:
             raise ValueError(f"An Edge cannot be negative")
 
-        self.matrix[v1][v2] = 1
+        self.matrix[v1][v2] = weight
         if not self.directed:
-            self.matrix[v2][v1] = 1
+            self.matrix[v2][v1] = weight
 
     def get_adjacent_vertices(self,v):
 
