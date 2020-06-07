@@ -10,7 +10,15 @@
 
 <h2>Sorting Algorithms:</h2>
 
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/bubblesort.py">Bubble Sort</a>
 
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/insertionsort.py">Insertion Sort</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/merge_sort.py">Merger Sort</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/quicksort.py">Quick Sort</a>
+
+<a href="https://github.com/hem1999/Algorithms/blob/master/Sorting/radixsort.py">Radix Sort</a>
 
 
 
@@ -42,4 +50,4 @@ Incase you want to know what all I thought of doing there are two images that co
 
 
 Incase you want to help me out in anything:
-Please do go through every algorithm or implementation of data structure and try to do it in less time and I would be more than happy to learn from others.
+Please do go through every algorithm or implementation of data structure and try to do it in less time and I would be more than happy to learn from others. You can help me out implementing algorithms or suggestion 
