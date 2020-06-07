@@ -50,4 +50,4 @@ Incase you want to know what all I thought of doing there are two images that co
 
 
 Incase you want to help me out in anything:
-Please do go through every algorithm or implementation of data structure and try to do it in less time and I would be more than happy to learn from others.
+Please do go through every algorithm or implementation of data structure and try to do it in less time and I would be more than happy to learn from others. You can help me out implementing algorithms or suggestion 
