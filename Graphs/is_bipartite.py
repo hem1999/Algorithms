@@ -1,28 +1,7 @@
 from AdjacencyMatrixRepresentation import AdjacencyMatrix
 
-def is_bipartite(g):
-    visited = [False for i in range(g.numVertices)]
-    colors = ['black','white']
-    colored = [None for i in range(g.numVertices)]
-    colored[0]='black'
-    dfs(0,visited,colored)
-
-
-def dfs(at,visited,colored):
-    visited[at]=True
-    if colored[at]=='black':
-        current_color ='White'
-    else:
-        current_color = 'black'
-    for i in g.get_adjacent_vertices(at):
-        if True:
-            if colored[i]==colored[at]:
-                print(f"Not a bipartite graph because of {i} and {at}")
-                return False
-            if not visited[i]:
-                colored[i]=current_color
-                dfs(i,visited,colored)
-
+def is_bipartite(g,colored,visited,pos):
+    pass
 if __name__=='__main__':
     g = AdjacencyMatrix(6)
     #         2
